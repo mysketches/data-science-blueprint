@@ -1,0 +1,17 @@
+{
+
+    "full_name": "John Doe",
+    "email": "john.doe@myemail.org",
+    "project_name": "DS-blueprint",
+    "package_name": "Awesome project",
+    "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_') }}",
+    "project_short_description": "No description",
+    "version": "0.1.0",
+    "python_interpreter": ["python3", "python"],
+    "application_cli_name": "{{ cookiecutter.package_slug.replace('_', '-') }}-cli",
+    "opensource_licence": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"],
+    "docker_base_image": "jupyter/base-notebook:python-3.7.6",
+    "docker_image_name": "{{ cookiecutter.package_slug.replace('_', '-') }}-env",
+    "docker_container_name": "{{ cookiecutter.docker_image_name.replace('_', '-') }}-instance",
+    "docker_container_port": "8888"
+}
