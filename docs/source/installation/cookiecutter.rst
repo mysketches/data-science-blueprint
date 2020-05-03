@@ -25,13 +25,13 @@ Here is the list of the variables that will be set by Cookiecutter
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
 | application-cli-name      | {project_slug}-cli                 | Unix command to use your packaged project as an app                  |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
-| open_source_licence       |                                    | Licence for your project                                             |
+| opensource_licence        | "MIT", "BSD", "ISCL", "Apache"...  | Licence for your project                                             |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
 | docker_base_image         | jupyter/base-notebook:python-3.7.6 | Docker image used to build the environment                           |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
-| docker_image_name         | {project_slug}-env                 | Name of the built Docker image that will be used as your environment |
+| docker_image_name         | {package_slug}-env                 | Name of the built Docker image that will be used as your environment |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
-| docker_container_name     | {project_slug}-instance            | Name of the Docker container that will be instanciated               |
+| docker_container_name     | {package_slug}-instance            | Name of the Docker container that will be instanciated               |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
 | docker_container_port     | 8888                               | Port exposed to access Jupyter notebooks                             |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
