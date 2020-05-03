@@ -11,6 +11,15 @@ Data Science blueprint's documentation
 
 .. toctree::
    :maxdepth: 1
+   :caption: Quickstart:
+
+   tutorial/installation
+   tutorial/environment
+   tutorial/quality
+   tutorial/cli
+
+.. toctree::
+   :maxdepth: 1
    :caption: Installation:
 
    installation/requirements
@@ -18,14 +27,6 @@ Data Science blueprint's documentation
    installation/installation
    installation/makefile
    installation/ownership
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Code quality:
-
-   quality/flake8
-   quality/tests
-   quality/coverage
 
 .. toctree::
    :maxdepth: 1
@@ -39,20 +40,18 @@ Data Science blueprint's documentation
 
 .. toctree::
    :maxdepth: 1
+   :caption: Code quality:
+
+   quality/flake8
+   quality/tests
+   quality/coverage
+
+.. toctree::
+   :maxdepth: 1
    :caption: Build your app:
 
    build/build
    build/cli
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Tutorial:
-
-   tutorial/installation
-   tutorial/environment
-   tutorial/quality
-   tutorial/cli
-
 
 
 Indices and tables

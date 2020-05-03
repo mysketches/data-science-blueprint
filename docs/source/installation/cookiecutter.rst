@@ -31,7 +31,7 @@ Here is the list of the variables that will be set by Cookiecutter
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
 | docker_image_name         | {package_slug}-env                 | Name of the built Docker image that will be used as your environment |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
-| docker_container_name     | {package_slug}-instance            | Name of the Docker container that will be instanciated               |
+| docker_container_name     | {docker_image_name}-instance       | Name of the Docker container that will be instanciated               |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+
 | docker_container_port     | 8888                               | Port exposed to access Jupyter notebooks                             |
 +---------------------------+------------------------------------+----------------------------------------------------------------------+

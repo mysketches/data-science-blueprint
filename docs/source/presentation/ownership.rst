@@ -7,9 +7,9 @@ even republish it under your own brand if you wish to.
 
 Feel free to give me your feedbacks. With your feedbacks, I can design some new features. I will integrate them
 into the blueprint, and update the documentation. As I have said before, the project is available on github,
-`here <https://github.com/mysketches/datascience-blueprint>`_. You can also easily clone it like this::
+`here <https://github.com/mysketches/data-science-blueprint>`_. You can also easily clone it like this::
 
-        git clone https://github.com/mysketches/datascience-blueprint.git
+        git clone https://github.com/mysketches/data-science-blueprint.git
 
 If you wish to contribute to my project, I'd be glad to receive your pull requests on Github. If you see a bug, or
 something os not clear, you can also create an issue on Github.
