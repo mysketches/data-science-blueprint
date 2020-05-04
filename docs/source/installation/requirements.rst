@@ -21,3 +21,7 @@ If it appears that you need to be sudo to run docker, then you must add your use
 was created after installing docker on your machine. This can be done thanks to this command::
 
         sudo usermod -aG docker $USER
+
+To interact avec the blueprint, you will need to run the ``make`` command many times. This command can run definitions
+that are specified in the ``Makefile`` file. Depending on the operating system you are installing the blueprint on, you will find
+much documentation about how to install ``make``.
