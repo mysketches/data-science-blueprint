@@ -109,7 +109,7 @@ Load the sample data
 The blueprint comes with some sample data to load into your project. This command will only be useful for the sake of
 the tutorial. You may update this command according to your needs.
 
-The data that will be loaded into your project is a repartition of the population across regions in New Zealand. To load this data, just open a
+The data that will be loaded into your project is a data sample of the visitors and travellers arriving in New Zealand from June 2014 to June 2019. To load this data, just open a
 terminal, move to the folder where the blueprint is installed, and type in the following command::
 
         $ make environment-data
