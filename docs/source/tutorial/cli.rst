@@ -13,9 +13,9 @@ like this::
 As you didn't write any action to perform, here is the obvious output you'll get::
 
         Usage:
-            mlp-cli lorem <iterations> [--text-size=<text_size>]
-            mlp-cli data <data-url> <data-location>
-            mlp-cli (-h | --help)
+            awesome-project-cli lorem <iterations> [--text-size=<text_size>]
+            awesome-project-cli data <data-url> <data-location>
+            awesome-project-cli (-h | --help)
 
 Let's use the lorem action. It generates a list of *lorem ipsum* text::
 

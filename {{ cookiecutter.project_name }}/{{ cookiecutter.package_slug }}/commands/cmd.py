@@ -1,9 +1,9 @@
-"""MLP - machine-learning-production
+"""{{ cookiecutter.package_name }} - machine-learning-production
 
 Usage:
-    mlp-cli lorem <iterations> [--text-size=<text_size>]
-    mlp-cli data <data-url> <data-location>
-    mlp-cli (-h | --help)
+    {{ cookiecutter.application_cli_name }} lorem <iterations> [--text-size=<text_size>]
+    {{ cookiecutter.application_cli_name }} data <data-url> <data-location>
+    {{ cookiecutter.application_cli_name }} (-h | --help)
 
 Arguments:
     <data-location>         Location to save the data file
