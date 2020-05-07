@@ -3,8 +3,10 @@ Requirements
 
 To install the Data Science blueprint and benefit from all its features, a few requirements will have to be checked
 
-- Python >= 3
-- Docker
+- python
+- docker
+- pip
+- git
 
 And that's it. To check your python version, you can type in this instruction in your favorite terminal.
 Knowing which executable is installed on your machine will help you decide on the python interpreter to choose ::
