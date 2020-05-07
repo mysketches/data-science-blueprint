@@ -9,7 +9,6 @@ __pycache__/
 .Python
 eggs/
 .eggs/
-data/
 *.egg-info/
 .installed.cfg
 *.egg
