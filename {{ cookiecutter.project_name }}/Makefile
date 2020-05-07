@@ -37,7 +37,13 @@ package:
 
 ## Build environment
 environment-build:
-	 @docker build -t $(IMAGE_NAME) . && echo "\nEnvironment is built! A Docker image was created: $(IMAGE_NAME)"
+	@rm -rf $(PROJECT_NAME).egg-info
+	@mkdir -p $(PROJECT_NAME).egg-info
+	@chmod -R 777 $(PROJECT_NAME).egg-info
+	@chmod -R 777 data
+	@chmod -R 777 notebooks
+	@chmod -R 777 scripts
+	@docker build -t $(IMAGE_NAME) . && echo "\nEnvironment is built! A Docker image was created: $(IMAGE_NAME)"
 
 ## Start environment
 environment-start:
